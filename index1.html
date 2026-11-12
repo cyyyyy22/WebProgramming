@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Campus Notices</title>
+
+    <link rel="stylesheet" href="Style1.css" />
+</head>
+<body class = "bg">
+
+    
+
+<div class="container">
+  <div class="header">
+  <div>
+        <div class="bg1">
+            <img src="ccs.jpg" height="50" width="50" alt="CCS Logo">
+            <h1>Don Mariano Marcos Memorial State University</h1>
+            <img src="OIP.jpg" height="50" width="50" alt="DMMMSU Logo">
+        </div>
+    </div>
+</div>
+
+  <div class="menu">
+    
+    <a href="#">Notice 1</a>
+    <br>
+    <a href="#">Notice 2</a>
+    <br>
+    <a href="#">Notice 3</a>
+</div>
+
+  <div class="content">
+
+    <h1>Campus Notices</h1>
+    <p>Faculty Members</p>
+    <img id="img" src="pbbm.jpg" alt="Campus Image"    width="100px" height="100px"/>
+
+        <ol>
+            <li>Maam Macon</li>
+            <li>Maam Haydee</li>
+            <li>Sir Zee</li>
+            <li>Sir Joe</li>
+        </ol>
+
+        <ul>
+            <li>Maam Macon</li>
+            <li>Maam Haydee</li>
+            <li>Sir Zee</li>
+            <li>Sir Joe</li>
+        </ul>
+        
+</div>
+
+  <div class="content1">
+    <form action="/api/notices" method="post">
+        <label for="title">Title</label>
+        <input id="title" name="title" type="text" required />
+        <br>
+
+        <label for="msg">Message</label>
+        <textarea id="msg" name="message"></textarea>
+
+        <button class="btn" type="submit">Post Notice</button>
+    </form>
+  
+</div>
+
+  <div class="footer"><h4>Footer</h4></div>
+</div>
+
+</body>
+</html>

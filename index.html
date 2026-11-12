@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Campus Notices</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+
+    
+
+    <h1>Campus Notices</h1>
+    <a href="notices.html">Read Notices</a>
+
+    <div class="bg2">
+        <p>The College of Computer <strong>Science</strong></p>
+
+        <ol>
+            <li>Maam Macon</li>
+            <li>Maam Haydee</li>
+            <li>Sir Zee</li>
+            <li>Sir Joe</li>
+        </ol>
+
+        <ul>
+            <li>Maam Macon</li>
+            <li>Maam Haydee</li>
+            <li>Sir Zee</li>
+            <li>Sir Joe</li>
+        </ul>
+    </div>
+
+    <img src="Images.jpg" alt="Campus Image" />
+
+    <form action="/api/notices" method="post">
+        <label for="title">Title</label>
+        <input id="title" name="title" type="text" required />
+
+        <label for="msg">Message</label>
+        <textarea id="msg" name="message"></textarea>
+
+        <button class="btn" type="submit">Post Notice</button>
+    </form>
+
+    <p id="sentence1">This is Computer Science</p>
+    <p>Don Mariano Marcos</p>
+
+    <nav>
+        <a href="notice.html">Read Notice</a>
+    </nav>
+</body>
+</html>
